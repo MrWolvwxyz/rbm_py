@@ -20,7 +20,7 @@ def drop_activation( x ):
     return logis, logis > random.rand( x.shape[ 0 ], x.shape[ 1 ] )
 
 def load_mnist( dataset = "training", digits = arange( 10 ),
-                path = "/Users/Sam/Documents/eecs598/" ):
+                path = "/Users/Sam/Documents/rbm_py/" ):
     """
     Loads MNIST files into 3D numpy arrays
 
